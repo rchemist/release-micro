@@ -1,0 +1,64 @@
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+# *.jar
+*.war
+*.ear
+*.nar
+*.pid
+hs_err_pid*
+
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+##############################
+## Eclipse
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+
+
+##############################
+## NetBeans
+##############################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+##############################
+## OS X
+##############################
+.DS_Store
+/releases/io/rchemist/smb-admin/
+/releases/io/rchemist/smb-api/
+/releases/io/rchemist/smb-site/
+/releases/io/rchemist/service-admin/
+/releases/io/rchemist/service-front/
+/snapshots/io/rchemist/smb-admin/
+/snapshots/io/rchemist/smb-api/
+/snapshots/io/rchemist/smb-site/
+/snapshots/io/rchemist/service-admin/
+/snapshots/io/rchemist/service-front/
