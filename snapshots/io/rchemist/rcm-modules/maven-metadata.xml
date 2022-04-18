@@ -3,9 +3,11 @@
   <groupId>io.rchemist</groupId>
   <artifactId>rcm-modules</artifactId>
   <versioning>
+    <release>0.0.1-CERATALK</release>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.1-CERATALK</version>
     </versions>
-    <lastUpdated>20220418135023</lastUpdated>
+    <lastUpdated>20220418135608</lastUpdated>
   </versioning>
 </metadata>
