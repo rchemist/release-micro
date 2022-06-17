@@ -2,7 +2,7 @@
 Release server for RCM micro-services
 
 `
-find ./ -name "*20220616*"  -type f -ls -exec rm {} +
+find ./ -name "*20220617*"  -type f -ls -exec rm {} +
 find ./ -name "*20220615*"  -type f -ls -exec rm {} +
 find ./ -name "*20220610*"  -type f -ls -exec rm {} +
 find ./ -name "*20220613*"  -type f -ls -exec rm {} +
