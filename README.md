@@ -1,14 +1,19 @@
 # release-micro
 Release server for RCM micro-services
 
+# micro, cloud 만 제거
 `
-find ./ -name "*20220728*"  -type f -ls -exec rm {} +
-find ./ -name "*20220729*"  -type f -ls -exec rm {} +
-find ./ -name "*20220727*"  -type f -ls -exec rm {} +
-find ./ -name "*20220728*"  -type f -ls -exec rm {} +
-find ./ -name "*20220719*"  -type f -ls -exec rm {} +
-find ./ -name "*20220721*"  -type f -ls -exec rm {} +
-find ./ -name "*20220412*"  -type f -ls -exec rm {} +
-find ./ -name "*20220413*"  -type f -ls -exec rm {} +
-find ./ -name "*20220414*"  -type f -ls -exec rm {} +
+find ./ -name "micro*20220730*"  -type f -ls -exec rm {} +
+find ./ -name "micro*20220731*"  -type f -ls -exec rm {} +
+find ./ -name "micro*20220801*"  -type f -ls -exec rm {} +
+find ./ -name "micro*20220802*"  -type f -ls -exec rm {} +
+find ./ -name "cloud*20220730*"  -type f -ls -exec rm {} +
+find ./ -name "cloud*20220731*"  -type f -ls -exec rm {} +
+find ./ -name "cloud*20220801*"  -type f -ls -exec rm {} +
+find ./ -name "cloud*20220802*"  -type f -ls -exec rm {} +
+`
+
+# 전체 제거 
+`
+find ./ -name "*20220801*"  -type f -ls -exec rm {} +
 `
