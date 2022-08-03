@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>io.rchemist</groupId>
-  <artifactId>common-extension-manager</artifactId>
+  <artifactId>module-korean-token-filter</artifactId>
   <versioning>
     <versions>
       <version>0.0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220803182644</lastUpdated>
+    <lastUpdated>20220803182708</lastUpdated>
   </versioning>
 </metadata>
