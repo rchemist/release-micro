@@ -8,7 +8,7 @@ find ./ -name "micro*20220803*"  -type f -ls -exec rm {} +
 find ./ -name "micro*20220804*"  -type f -ls -exec rm {} +
 find ./ -name "micro*20220805*"  -type f -ls -exec rm {} +
 find ./ -name "micro*20220808*"  -type f -ls -exec rm {} +
-find ./ -name "micro*20220808*"  -type f -ls -exec rm {} +
+find ./ -name "micro*20220809*"  -type f -ls -exec rm {} +
 find ./ -name "micro*20220730*"  -type f -ls -exec rm {} +
 find ./ -name "micro*20220731*"  -type f -ls -exec rm {} +
 find ./ -name "micro*20220801*"  -type f -ls -exec rm {} +
