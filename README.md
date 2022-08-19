@@ -3,7 +3,7 @@ Release server for RCM micro-services
 
 # micro, cloud 만 제거
 `
-find ./ -name "micro*20220802*"  -type f -ls -exec rm {} +
+find ./ -name "0.0.2-20220810*"  -type f -ls -exec rm {} +
 find ./ -name "micro*20220803*"  -type f -ls -exec rm {} +
 find ./ -name "micro*20220804*"  -type f -ls -exec rm {} +
 find ./ -name "micro*20220805*"  -type f -ls -exec rm {} +
