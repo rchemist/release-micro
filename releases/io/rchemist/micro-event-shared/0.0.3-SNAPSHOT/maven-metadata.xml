@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>micro-event-shared</artifactId>
   <versioning>
-    <lastUpdated>20220824154515</lastUpdated>
+    <lastUpdated>20220824170256</lastUpdated>
     <snapshot>
-      <timestamp>20220824.154515</timestamp>
-      <buildNumber>9</buildNumber>
+      <timestamp>20220824.170256</timestamp>
+      <buildNumber>10</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.3-20220824.154515-9</value>
-        <updated>20220824154515</updated>
+        <value>0.0.3-20220824.170256-10</value>
+        <updated>20220824170256</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.3-20220824.154515-9</value>
-        <updated>20220824154515</updated>
+        <value>0.0.3-20220824.170256-10</value>
+        <updated>20220824170256</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-20220824.154515-9</value>
-        <updated>20220824154515</updated>
+        <value>0.0.3-20220824.170256-10</value>
+        <updated>20220824170256</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

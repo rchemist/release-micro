@@ -2,30 +2,30 @@
 <metadata modelVersion="1.1.0">
   <groupId>io.rchemist</groupId>
   <artifactId>micro-payment-shared</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
   <versioning>
+    <lastUpdated>20220824170723</lastUpdated>
     <snapshot>
-      <timestamp>20220824.091703</timestamp>
-      <buildNumber>11</buildNumber>
+      <timestamp>20220824.170723</timestamp>
+      <buildNumber>12</buildNumber>
     </snapshot>
-    <lastUpdated>20220824091703</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.3-20220824.091703-11</value>
-        <updated>20220824091703</updated>
+        <value>0.0.3-20220824.170723-12</value>
+        <updated>20220824170723</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.3-20220824.091703-11</value>
-        <updated>20220824091703</updated>
+        <value>0.0.3-20220824.170723-12</value>
+        <updated>20220824170723</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-20220824.091703-11</value>
-        <updated>20220824091703</updated>
+        <value>0.0.3-20220824.170723-12</value>
+        <updated>20220824170723</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
+  <version>0.0.3-SNAPSHOT</version>
 </metadata>
