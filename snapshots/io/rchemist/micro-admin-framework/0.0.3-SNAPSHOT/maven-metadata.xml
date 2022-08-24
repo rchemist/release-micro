@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>micro-admin-framework</artifactId>
   <versioning>
-    <lastUpdated>20220824170723</lastUpdated>
+    <lastUpdated>20220824182012</lastUpdated>
     <snapshot>
-      <timestamp>20220824.170723</timestamp>
-      <buildNumber>11</buildNumber>
+      <timestamp>20220824.182012</timestamp>
+      <buildNumber>12</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.3-20220824.170723-11</value>
-        <updated>20220824170723</updated>
+        <value>0.0.3-20220824.182012-12</value>
+        <updated>20220824182012</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.3-20220824.170723-11</value>
-        <updated>20220824170723</updated>
+        <value>0.0.3-20220824.182012-12</value>
+        <updated>20220824182012</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-20220824.170723-11</value>
-        <updated>20220824170723</updated>
+        <value>0.0.3-20220824.182012-12</value>
+        <updated>20220824182012</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
