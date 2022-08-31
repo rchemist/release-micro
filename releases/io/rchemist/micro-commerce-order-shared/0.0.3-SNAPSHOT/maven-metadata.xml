@@ -2,30 +2,30 @@
 <metadata modelVersion="1.1.0">
   <groupId>io.rchemist</groupId>
   <artifactId>micro-commerce-order-shared</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
   <versioning>
+    <lastUpdated>20220831072503</lastUpdated>
     <snapshot>
-      <timestamp>20220825.144534</timestamp>
-      <buildNumber>11</buildNumber>
+      <timestamp>20220831.072503</timestamp>
+      <buildNumber>12</buildNumber>
     </snapshot>
-    <lastUpdated>20220825144534</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.3-20220825.144534-11</value>
-        <updated>20220825144534</updated>
+        <value>0.0.3-20220831.072503-12</value>
+        <updated>20220831072503</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.3-20220825.144534-11</value>
-        <updated>20220825144534</updated>
+        <value>0.0.3-20220831.072503-12</value>
+        <updated>20220831072503</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-20220825.144534-11</value>
-        <updated>20220825144534</updated>
+        <value>0.0.3-20220831.072503-12</value>
+        <updated>20220831072503</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
+  <version>0.0.3-SNAPSHOT</version>
 </metadata>
