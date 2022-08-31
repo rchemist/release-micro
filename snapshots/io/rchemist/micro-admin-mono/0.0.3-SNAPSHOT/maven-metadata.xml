@@ -2,30 +2,30 @@
 <metadata modelVersion="1.1.0">
   <groupId>io.rchemist</groupId>
   <artifactId>micro-admin-mono</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
   <versioning>
+    <lastUpdated>20220831073939</lastUpdated>
     <snapshot>
-      <timestamp>20220825.145356</timestamp>
-      <buildNumber>13</buildNumber>
+      <timestamp>20220831.073939</timestamp>
+      <buildNumber>14</buildNumber>
     </snapshot>
-    <lastUpdated>20220825145356</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.3-20220825.145356-13</value>
-        <updated>20220825145356</updated>
+        <value>0.0.3-20220831.073939-14</value>
+        <updated>20220831073939</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.3-20220825.145356-13</value>
-        <updated>20220825145356</updated>
+        <value>0.0.3-20220831.073939-14</value>
+        <updated>20220831073939</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-20220825.145356-13</value>
-        <updated>20220825145356</updated>
+        <value>0.0.3-20220831.073939-14</value>
+        <updated>20220831073939</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
+  <version>0.0.3-SNAPSHOT</version>
 </metadata>
