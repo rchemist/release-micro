@@ -3,21 +3,21 @@
   <groupId>io.rchemist</groupId>
   <artifactId>micro-commerce-promotion-shared</artifactId>
   <versioning>
-    <lastUpdated>20220831073939</lastUpdated>
+    <lastUpdated>20220905073049</lastUpdated>
     <snapshot>
-      <timestamp>20220831.073939</timestamp>
-      <buildNumber>15</buildNumber>
+      <timestamp>20220905.073049</timestamp>
+      <buildNumber>16</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.3-20220831.073939-15</value>
-        <updated>20220831073939</updated>
+        <value>0.0.3-20220905.073049-16</value>
+        <updated>20220905073049</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.3-20220831.073939-15</value>
-        <updated>20220831073939</updated>
+        <value>0.0.3-20220905.073049-16</value>
+        <updated>20220905073049</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
