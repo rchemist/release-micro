@@ -12,51 +12,62 @@
   ~  limitations under the License.
   -->
 
-<project  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-
   <parent>
+    <artifactId>micro</artifactId>
     <groupId>io.rchemist</groupId>
-    <artifactId>rcm-platform-bom</artifactId>
     <version>0.0.3-SNAPSHOT</version>
   </parent>
+  <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.rchemist</groupId>
-  <packaging>jar</packaging>
-  <artifactId>common-extension-manager</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
-  <name>RCM ExtensionManager</name>
-  <description>Rchemist Common modules :: extension manager</description>
+  <artifactId>cloud-config</artifactId>
+
   <properties>
-    <java.version>11</java.version>
-    <project.version>${rcm-platform.version}</project.version>
-    <lombok.version>1.18.20</lombok.version>
-    <apache.commons.io.version>2.11.0</apache.commons.io.version>
-    <apache.commons.collections4.version>4.3</apache.commons.collections4.version>
-    <apache.commons.beanutils.version>1.9.3</apache.commons.beanutils.version>
-    <apache.commons.math.version>3.6.1</apache.commons.math.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
   <dependencies>
     <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-config-server</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-bootstrap</artifactId>
     </dependency>
   </dependencies>
 
+  <build>
+    <resources>
+      <resource>
+        <directory>
+          src/main
+        </directory>
+        <excludes>
+          <exclude>/resources/config/**</exclude>
+        </excludes>
+      </resource>
+    </resources>
+  </build>
 
   <distributionManagement>
     <repository>
       <id>release</id>
-      <url>file:../release-micro/releases</url>
+      <url>file:../../release-micro/releases</url>
       <!--<url>https://github.com/rchemist/release-micro/raw/main/releases</url>-->
     </repository>
 
     <snapshotRepository>
       <id>snapshot</id>
-      <url>file:../release-micro/snapshots</url>
+      <url>file:../../release-micro/snapshots</url>
       <!--<url>https://github.com/rchemist/release-micro/raw/main/snapshots</url>-->
     </snapshotRepository>
   </distributionManagement>
