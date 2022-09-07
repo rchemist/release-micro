@@ -2,30 +2,30 @@
 <metadata modelVersion="1.1.0">
   <groupId>io.rchemist</groupId>
   <artifactId>common-extension-manager</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
   <versioning>
-    <lastUpdated>20220905073049</lastUpdated>
     <snapshot>
-      <timestamp>20220905.073049</timestamp>
-      <buildNumber>13</buildNumber>
+      <timestamp>20220907.010830</timestamp>
+      <buildNumber>15</buildNumber>
     </snapshot>
+    <lastUpdated>20220907010830</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.3-20220905.073049-13</value>
-        <updated>20220905073049</updated>
+        <value>0.0.3-20220907.010830-15</value>
+        <updated>20220907010830</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.3-20220905.073049-13</value>
-        <updated>20220905073049</updated>
+        <value>0.0.3-20220907.010830-15</value>
+        <updated>20220907010830</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-20220905.073049-13</value>
-        <updated>20220905073049</updated>
+        <value>0.0.3-20220907.010830-15</value>
+        <updated>20220907010830</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
-  <version>0.0.3-SNAPSHOT</version>
 </metadata>
