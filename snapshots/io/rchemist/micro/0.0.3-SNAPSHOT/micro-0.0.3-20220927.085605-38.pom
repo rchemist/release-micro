@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~  Copyright (c) 2022. rchemist.io by Rchemist
+  ~  Licensed under the Rchemist Common License, Version 1.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License under controlled by Rchemist
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+  -->
+
+<project  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <modules>
+    <module>common-extension-manager</module>
+    <module>common-utils</module>
+    <module>common-class-transformer</module>
+    <module>common-documentation</module>
+    <module>common-data-jpa</module>
+    <module>micro-common</module>
+    <module>micro-customer</module>
+    <module>micro-commerce-catalog</module>
+    <module>micro-commerce-order</module>
+    <module>micro-commerce-promotion</module>
+    <module>micro-tenant</module>
+    <module>micro-cms</module>
+    <module>cloud-eureka</module>
+    <module>cloud-gateway</module>
+    <module>cloud-config</module>
+    <module>cloud-common</module>
+    <module>micro-event</module>
+    <module>micro-asset</module>
+    <module>micro-admin</module>
+    <module>micro-admin-mono</module>
+    <module>service-admin</module>
+    <module>micro-tenant-shared</module>
+    <module>micro-asset-shared</module>
+    <module>micro-customer-shared</module>
+    <module>service-front</module>
+    <module>micro-front-mono</module>
+    <module>micro-event-shared</module>
+    <module>micro-payment</module>
+    <module>micro-payment-shared</module>
+    <module>micro-commerce-catalog-shared</module>
+    <module>micro-commerce-order-shared</module>
+    <module>micro-commerce-promotion-shared</module>
+    <module>micro-admin-framework</module>
+    <module>micro-cms-shared</module>
+    <module>micro-batch</module>
+  </modules>
+
+  <parent>
+    <groupId>io.rchemist</groupId>
+    <artifactId>rcm-platform-bom</artifactId>
+    <version>0.0.3-SNAPSHOT</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+
+  <groupId>io.rchemist</groupId>
+  <packaging>pom</packaging>
+  <artifactId>micro</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <name>Micro shop</name>
+  <description>Rchemist MicroShop :: for Social Commerce</description>
+  <properties>
+    <java.version>11</java.version>
+    <project.version>${rcm-platform.version}</project.version>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo1.maven.org/maven2/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>rchemist.releases</id>
+      <url>https://github.com/rchemist/release-micro/raw/main/releases</url>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-asset</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-asset-shared</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-admin</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-admin-framework</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-cms-shared</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-batch</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-admin-mono</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-front-mono</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-cms</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-common</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-commerce-order</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-commerce-catalog</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-commerce-promotion</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-customer</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-customer-shared</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-event</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-event-shared</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-payment</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-payment-shared</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-commerce-catalog-shared</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-commerce-order-shared</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-commerce-promotion-shared</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-tenant</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>micro-tenant-shared</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>cloud-common</artifactId>
+        <version>${project.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-extension-manager</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-utils</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-class-transformer</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-documentation</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-data-jpa</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+    </dependencies>
+  </dependencyManagement>
+
+</project>
