@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.rchemist</groupId>
+  <artifactId>rcm-platform-bom</artifactId>
+  <versioning>
+    <lastUpdated>20220928140337</lastUpdated>
+    <snapshot>
+      <timestamp>20220928.140337</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.4-20220928.140337-2</value>
+        <updated>20220928140337</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.4-SNAPSHOT</version>
+</metadata>
