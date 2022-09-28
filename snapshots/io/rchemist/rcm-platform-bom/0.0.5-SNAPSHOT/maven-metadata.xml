@@ -2,19 +2,19 @@
 <metadata modelVersion="1.1.0">
   <groupId>io.rchemist</groupId>
   <artifactId>rcm-platform-bom</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
   <versioning>
+    <lastUpdated>20220928135718</lastUpdated>
     <snapshot>
-      <timestamp>20220914.052839</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20220928.135718</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20220914052839</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.4-20220914.052839-3</value>
-        <updated>20220914052839</updated>
+        <value>0.0.5-20220928.135718-2</value>
+        <updated>20220928135718</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
+  <version>0.0.5-SNAPSHOT</version>
 </metadata>
