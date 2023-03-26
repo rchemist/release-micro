@@ -3,16 +3,16 @@
   <groupId>io.rchemist</groupId>
   <artifactId>rcm-platform-bom</artifactId>
   <versioning>
-    <lastUpdated>20230326080348</lastUpdated>
+    <lastUpdated>20230326104113</lastUpdated>
     <snapshot>
-      <timestamp>20230326.080348</timestamp>
-      <buildNumber>5</buildNumber>
+      <timestamp>20230326.104113</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.5-20230326.080348-5</value>
-        <updated>20230326080348</updated>
+        <value>0.0.5-20230326.104113-7</value>
+        <updated>20230326104113</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
