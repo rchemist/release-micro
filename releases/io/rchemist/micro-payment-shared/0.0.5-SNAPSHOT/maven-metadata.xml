@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>micro-payment-shared</artifactId>
   <versioning>
-    <lastUpdated>20230326185801</lastUpdated>
+    <lastUpdated>20230328031751</lastUpdated>
     <snapshot>
-      <timestamp>20230326.185801</timestamp>
-      <buildNumber>9</buildNumber>
+      <timestamp>20230328.031751</timestamp>
+      <buildNumber>10</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.5-20230326.185801-9</value>
-        <updated>20230326185801</updated>
+        <value>0.0.5-20230328.031751-10</value>
+        <updated>20230328031751</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.5-20230326.185801-9</value>
-        <updated>20230326185801</updated>
+        <value>0.0.5-20230328.031751-10</value>
+        <updated>20230328031751</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.5-20230326.185801-9</value>
-        <updated>20230326185801</updated>
+        <value>0.0.5-20230328.031751-10</value>
+        <updated>20230328031751</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
