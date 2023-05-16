@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>cloud-eureka</artifactId>
   <versioning>
-    <lastUpdated>20230511065108</lastUpdated>
+    <lastUpdated>20230516030330</lastUpdated>
     <snapshot>
-      <timestamp>20230511.065108</timestamp>
-      <buildNumber>12</buildNumber>
+      <timestamp>20230516.030330</timestamp>
+      <buildNumber>13</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.5-20230511.065108-12</value>
-        <updated>20230511065108</updated>
+        <value>0.0.5-20230516.030330-13</value>
+        <updated>20230516030330</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.5-20230511.065108-12</value>
-        <updated>20230511065108</updated>
+        <value>0.0.5-20230516.030330-13</value>
+        <updated>20230516030330</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.5-20230511.065108-12</value>
-        <updated>20230511065108</updated>
+        <value>0.0.5-20230516.030330-13</value>
+        <updated>20230516030330</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
