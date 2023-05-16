@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>common-spring6</artifactId>
   <versioning>
-    <lastUpdated>20230516024603</lastUpdated>
+    <lastUpdated>20230516025142</lastUpdated>
     <snapshot>
-      <timestamp>20230516.024603</timestamp>
-      <buildNumber>17</buildNumber>
+      <timestamp>20230516.025142</timestamp>
+      <buildNumber>18</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.5-20230516.024603-17</value>
-        <updated>20230516024603</updated>
+        <value>0.0.5-20230516.025142-18</value>
+        <updated>20230516025142</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.5-20230516.024603-17</value>
-        <updated>20230516024603</updated>
+        <value>0.0.5-20230516.025142-18</value>
+        <updated>20230516025142</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.5-20230516.024603-17</value>
-        <updated>20230516024603</updated>
+        <value>0.0.5-20230516.025142-18</value>
+        <updated>20230516025142</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
