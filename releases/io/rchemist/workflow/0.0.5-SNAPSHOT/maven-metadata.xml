@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>io.rchemist</groupId>
-  <artifactId>common-spring6</artifactId>
+  <artifactId>workflow</artifactId>
   <versioning>
-    <lastUpdated>20230517060021</lastUpdated>
+    <lastUpdated>20230517060044</lastUpdated>
     <snapshot>
-      <timestamp>20230517.060021</timestamp>
-      <buildNumber>24</buildNumber>
+      <timestamp>20230517.060044</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.5-20230517.060021-24</value>
-        <updated>20230517060021</updated>
+        <value>0.0.5-20230517.060044-1</value>
+        <updated>20230517060044</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.5-20230517.060021-24</value>
-        <updated>20230517060021</updated>
+        <value>0.0.5-20230517.060044-1</value>
+        <updated>20230517060044</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.5-20230517.060021-24</value>
-        <updated>20230517060021</updated>
+        <value>0.0.5-20230517.060044-1</value>
+        <updated>20230517060044</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

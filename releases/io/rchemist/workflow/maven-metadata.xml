@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>io.rchemist</groupId>
-  <artifactId>common-spring6</artifactId>
+  <artifactId>workflow</artifactId>
   <versioning>
     <versions>
       <version>0.0.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20230517060021</lastUpdated>
+    <lastUpdated>20230517060044</lastUpdated>
   </versioning>
 </metadata>
