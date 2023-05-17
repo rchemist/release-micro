@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~  Copyright (c) 2022. rchemist.io by Rchemist
+  ~  Licensed under the Rchemist Common License, Version 1.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License under controlled by Rchemist
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+  -->
+
+<project  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.0.6</version>
+  </parent>
+
+  <groupId>io.rchemist</groupId>
+  <packaging>pom</packaging>
+  <artifactId>rcm-platform-bom</artifactId>
+  <version>0.0.5-SNAPSHOT</version>
+  <name>BOM of RCM Platform</name>
+  <description>Rchemist Platform :: BOM</description>
+  <properties>
+    <java.version>17</java.version>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <project.version>0.0.5-SNAPSHOT</project.version>
+    <rcm-platform.version>0.0.5-SNAPSHOT</rcm-platform.version>
+    <apache.commons.io.version>2.11.0</apache.commons.io.version>
+    <apache.commons.lang3.version>3.12.0</apache.commons.lang3.version>
+    <apache.commons.collections4.version>4.4</apache.commons.collections4.version>
+    <apache.commons.text.version>1.10.0</apache.commons.text.version>
+    <apache.commons.compress.version>1.23.0</apache.commons.compress.version>
+    <apache.commons.beanutils.version>1.9.4</apache.commons.beanutils.version>
+    <apache.commons.exec.version>1.3</apache.commons.exec.version>
+    <apache.commons.fileupload.version>1.5</apache.commons.fileupload.version>
+    <apache.commons.math.version>3.6.1</apache.commons.math.version>
+    <apache.commons.net.version>3.9.0</apache.commons.net.version>
+    <apache.commons.codec.version>1.15</apache.commons.codec.version>
+    <apache.tika.core.version>2.8.0</apache.tika.core.version>
+    <gson.version>2.10.1</gson.version>
+    <guava.version>31.1-jre</guava.version>
+    <juniversalchardet.version>1.0.3</juniversalchardet.version>
+    <libphonenumber.version>8.13.11</libphonenumber.version>
+    <opencsv.version>5.7.1</opencsv.version>
+    <jsoup.version>1.16.1</jsoup.version>
+    <reflections.version>0.10.2</reflections.version>
+    <send.in.blue.version>7.0.0</send.in.blue.version>
+    <hibernate.version>6.2.2.Final</hibernate.version>
+    <hibernate.search.version>6.2.0.Alpha2</hibernate.search.version>
+    <hibernate.elasticsearch.version>6.2.0.Alpha2</hibernate.elasticsearch.version>
+    <elasticsearch.client.version>7.17.6</elasticsearch.client.version>
+    <komoran.version>3.3.4</komoran.version>
+    <jjwt.version>0.9.1</jjwt.version>
+    <jjwt.sub.version>0.11.5</jjwt.sub.version>
+    <redisson-hibernate.version>3.21.1</redisson-hibernate.version>
+    <lombok.version>1.18.26</lombok.version>
+    <thymeleaf.extras.java8time>3.0.4.RELEASE</thymeleaf.extras.java8time>
+    <thymeleaf.extras.data.attribute.version>2.0.1</thymeleaf.extras.data.attribute.version>
+    <thymeleaf.extras.springsecurity5.version>3.1.0.M1</thymeleaf.extras.springsecurity5.version>
+    <thymeleaf-layout-dialect.version>3.1.0</thymeleaf-layout-dialect.version>
+    <javaassist.version>3.29.2-GA</javaassist.version>
+    <jedis.version>4.4.0</jedis.version>
+    <querydsl.version>5.0.0</querydsl.version>
+    <unirest.version>3.14.2</unirest.version>
+    <seancfoley.ipaddress.version>5.4.0</seancfoley.ipaddress.version>
+    <grpc.spring.boot.starter.version>2.14.0.RELEASE</grpc.spring.boot.starter.version>
+    <jackson-bom.version>2.15.0</jackson-bom.version>
+    <junit-vintage.version>5.9.3</junit-vintage.version>
+    <junit-platform.version>1.9.3</junit-platform.version>
+    <junit-jupiter.version>5.9.3</junit-jupiter.version>
+
+    <javax-annotation.version>1.3.2</javax-annotation.version>
+    <jdo-api.version>3.2.1</jdo-api.version>
+    <cglib.version>3.3.0</cglib.version>
+    <jackson.datatype.jsr310.version>2.15.0</jackson.datatype.jsr310.version>
+    <openfeign.form.version>3.8.0</openfeign.form.version>
+    <invesdwin.version>1.0.14.1</invesdwin.version>
+    <kafka-streams-test-utils.version>3.4.0</kafka-streams-test-utils.version>
+    <fastcsv.version>2.2.2</fastcsv.version>
+    <fastexcel.version>0.15.3</fastexcel.version>
+    <fastexcel-reader.version>0.15.3</fastexcel-reader.version>
+    <aws.s3.version>1.12.469</aws.s3.version>
+    <aws.cf.version>1.12.469</aws.cf.version>
+    <aws.ses.version>1.12.469</aws.ses.version>
+    <openhtml.version>1.0.10</openhtml.version>
+    <java-jwt.version>4.4.0</java-jwt.version>
+    <ahocorasick.version>0.6.3</ahocorasick.version>
+    <aws.elasticsearch.version>1.12.469</aws.elasticsearch.version>
+    <totp.version>1.7.1</totp.version>
+    <maven-release-plugin.version>3.0.0-M6</maven-release-plugin.version>
+    <maven-sure-fire.version>3.0.0</maven-sure-fire.version>
+
+    <spring.boot.version>3.0.6</spring.boot.version>
+    <spring.session.version>3.0.1</spring.session.version>
+    <spring.data.elasticsearch.version>5.1.0</spring.data.elasticsearch.version>
+    <!-- spring cloud security version check 필요 -->
+    <spring.cloud.security.version>2.2.5.RELEASE</spring.cloud.security.version>
+    <spring-cloud.version>2022.0.2</spring-cloud.version>
+
+    <transactions-jdbc.version>6.0.0</transactions-jdbc.version>
+
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo1.maven.org/maven2/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>JabyIon</id>
+      <url>https://www.jabylon.org/maven/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>Clojars</id>
+      <url>https://clojars.org/repo/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>jcenter</id>
+      <url>https://jcenter.bintray.com/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>jitpack</id>
+      <url>https://jitpack.io/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>rchemist.invesdwin.mirror</id>
+      <url>https://github.com/rchemist/release-invesdwin-instrument/raw/main/releases</url>
+    </repository>
+    <repository>
+      <id>rchemist.releases</id>
+      <url>https://github.com/rchemist/release-micro/raw/main/releases</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+      <repository>
+        <id>spring-snapshots</id>
+        <url>https://repo.spring.io/snapshot</url>
+        <snapshots><enabled>true</enabled></snapshots>
+      </repository>
+      <repository>
+        <id>spring-milestones</id>
+        <url>https://repo.spring.io/milestone</url>
+      </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>spring-snapshots</id>
+      <url>https://repo.spring.io/snapshot</url>
+    </pluginRepository>
+    <pluginRepository>
+      <id>spring-milestones</id>
+      <url>https://repo.spring.io/milestone</url>
+    </pluginRepository>
+    <pluginRepository>
+      <id>central</id>
+      <url>https://repo1.maven.org/maven2/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+        <version>${spring.boot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+        <version>${spring.boot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-oauth2-client</artifactId>
+        <version>${spring.boot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-security</artifactId>
+        <version>${spring.boot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt</artifactId>
+        <version>${jjwt.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt-api</artifactId>
+        <version>${jjwt.sub.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt-impl</artifactId>
+        <version>${jjwt.sub.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt-jackson</artifactId>
+        <version>${jjwt.sub.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.auth0</groupId>
+        <artifactId>java-jwt</artifactId>
+        <version>${java-jwt.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        <version>${spring.boot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-validation</artifactId>
+        <version>${spring.boot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+        <version>${spring.boot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.session</groupId>
+        <artifactId>spring-session-core</artifactId>
+        <version>${spring.session.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>nz.net.ultraq.thymeleaf</groupId>
+        <artifactId>thymeleaf-layout-dialect</artifactId>
+        <version>${thymeleaf-layout-dialect.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.thymeleaf.extras</groupId>
+        <artifactId>thymeleaf-extras-springsecurity5</artifactId>
+        <version>${thymeleaf.extras.springsecurity5.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.thymeleaf.extras</groupId>
+        <artifactId>thymeleaf-extras-java8time</artifactId>
+        <version>${thymeleaf.extras.java8time}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.mxab.thymeleaf.extras</groupId>
+        <artifactId>thymeleaf-extras-data-attribute</artifactId>
+        <version>${thymeleaf.extras.data.attribute.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+        <optional>true</optional>
+      </dependency>
+
+      <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>${apache.commons.io.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-collections4</artifactId>
+        <version>${apache.commons.collections4.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>${apache.commons.lang3.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-text</artifactId>
+        <version>${apache.commons.text.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-compress</artifactId>
+        <version>${apache.commons.compress.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>commons-beanutils</groupId>
+        <artifactId>commons-beanutils</artifactId>
+        <version>${apache.commons.beanutils.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-exec</artifactId>
+        <version>${apache.commons.exec.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>commons-fileupload</groupId>
+        <artifactId>commons-fileupload</artifactId>
+        <version>${apache.commons.fileupload.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>commons-net</groupId>
+        <artifactId>commons-net</artifactId>
+        <version>${apache.commons.net.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+        <version>${apache.commons.codec.version}</version>
+      </dependency>
+
+
+      <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-math3</artifactId>
+        <version>${apache.commons.math.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.tika</groupId>
+        <artifactId>tika-core</artifactId>
+        <version>${apache.tika.core.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.sendinblue</groupId>
+        <artifactId>sib-api-v3-sdk</artifactId>
+        <version>${send.in.blue.version}</version>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.javassist</groupId>
+        <artifactId>javassist</artifactId>
+        <version>${javaassist.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <version>${spring.boot.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-test</artifactId>
+        <version>${spring.boot.version}</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-security</artifactId>
+        <version>${spring.cloud.security.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-oauth2</artifactId>
+        <version>${spring.cloud.security.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-cache</artifactId>
+        <version>${spring.boot.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>${gson.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>${guava.version}</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.googlecode.juniversalchardet/juniversalchardet -->
+      <dependency>
+        <groupId>com.googlecode.juniversalchardet</groupId>
+        <artifactId>juniversalchardet</artifactId>
+        <version>${juniversalchardet.version}</version>
+      </dependency>
+
+
+      <dependency>
+        <groupId>com.googlecode.libphonenumber</groupId>
+        <artifactId>libphonenumber</artifactId>
+        <version>${libphonenumber.version}</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
+      <dependency>
+        <groupId>com.opencsv</groupId>
+        <artifactId>opencsv</artifactId>
+        <version>${opencsv.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>${jsoup.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.reflections</groupId>
+        <artifactId>reflections</artifactId>
+        <version>${reflections.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.hibernate.orm</groupId>
+        <artifactId>hibernate-jcache</artifactId>
+        <version>${hibernate.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.hibernate.search</groupId>
+        <artifactId>hibernate-search-mapper-orm-orm6</artifactId>
+        <version>${hibernate.search.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate.search</groupId>
+        <artifactId>hibernate-search-backend-elasticsearch</artifactId>
+        <version>${hibernate.elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.hibernate.search</groupId>
+        <artifactId>hibernate-search-backend-elasticsearch-aws</artifactId>
+        <version>${hibernate.elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.redisson</groupId>
+        <artifactId>redisson-hibernate-6</artifactId>
+        <version>${redisson-hibernate.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-elasticsearch</artifactId>
+        <version>${spring.data.elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-high-level-client</artifactId>
+        <version>${elasticsearch.client.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.konghq</groupId>
+        <artifactId>unirest-java</artifactId>
+        <version>${unirest.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>redis.clients</groupId>
+        <artifactId>jedis</artifactId>
+        <version>${jedis.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>javax.cache</groupId>
+        <artifactId>cache-api</artifactId>
+        <version>${javax-cache.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.github.seancfoley</groupId>
+        <artifactId>ipaddress</artifactId>
+        <version>${seancfoley.ipaddress.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.devh</groupId>
+        <artifactId>grpc-spring-boot-starter</artifactId>
+        <version>${grpc.spring.boot.starter.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.devh</groupId>
+        <artifactId>grpc-server-spring-boot-starter</artifactId>
+        <version>${grpc.spring.boot.starter.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.devh</groupId>
+        <artifactId>grpc-client-spring-boot-starter</artifactId>
+        <version>${grpc.spring.boot.starter.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson-bom.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>jakarta.xml.bind</groupId>
+        <artifactId>jakarta.xml.bind-api</artifactId>
+        <version>${jakarta-xml-bind.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>javax.annotation</groupId>
+        <artifactId>javax.annotation-api</artifactId>
+        <version>${javax-annotation.version}</version>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>javax.jdo</groupId>
+        <artifactId>jdo-api</artifactId>
+        <version>${jdo-api.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.junit.platform</groupId>
+        <artifactId>junit-platform-launcher</artifactId>
+        <version>${junit-platform.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>${junit-jupiter.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.junit.vintage</groupId>
+        <artifactId>junit-vintage-engine</artifactId>
+        <version>${junit-vintage.version}</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>cglib</groupId>
+        <artifactId>cglib</artifactId>
+        <version>${cglib.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.fasterxml.jackson.datatype</groupId>
+        <artifactId>jackson-datatype-jsr310</artifactId>
+        <version>${jackson.datatype.jsr310.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.github.openfeign.form</groupId>
+        <artifactId>feign-form</artifactId>
+        <version>${openfeign.form.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.openfeign.form</groupId>
+        <artifactId>feign-form-spring</artifactId>
+        <version>${openfeign.form.version}</version>
+      </dependency>
+
+      <!-- for dynamically initial loadTimeWeaver, without vm option-->
+      <dependency>
+        <groupId>de.invesdwin</groupId>
+        <artifactId>invesdwin-instrument</artifactId>
+        <version>${invesdwin.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.kafka</groupId>
+        <artifactId>kafka-streams-test-utils</artifactId>
+        <version>${kafka-streams-test-utils.version}</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>de.siegmar</groupId>
+        <artifactId>fastcsv</artifactId>
+        <version>${fastcsv.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.dhatim</groupId>
+        <artifactId>fastexcel-reader</artifactId>
+        <version>${fastexcel-reader.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.dhatim</groupId>
+        <artifactId>fastexcel</artifactId>
+        <version>${fastexcel.version}</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3 -->
+      <dependency>
+        <groupId>com.amazonaws</groupId>
+        <artifactId>aws-java-sdk-s3</artifactId>
+        <version>${aws.s3.version}</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-cloudfront -->
+      <dependency>
+        <groupId>com.amazonaws</groupId>
+        <artifactId>aws-java-sdk-cloudfront</artifactId>
+        <version>${aws.cf.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.amazonaws</groupId>
+        <artifactId>aws-java-sdk-ses</artifactId>
+        <version>${aws.ses.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.openhtmltopdf</groupId>
+        <artifactId>openhtmltopdf-core</artifactId>
+        <version>${openhtml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.openhtmltopdf</groupId>
+        <artifactId>openhtmltopdf-pdfbox</artifactId>
+        <version>${openhtml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.ahocorasick</groupId>
+        <artifactId>ahocorasick</artifactId>
+        <version>${ahocorasick.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.amazonaws</groupId>
+        <artifactId>aws-java-sdk-elasticsearch</artifactId>
+        <version>${aws.elasticsearch.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.atomikos</groupId>
+        <artifactId>transactions-jdbc</artifactId>
+        <version>${transactions-jdbc.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>dev.samstevens.totp</groupId>
+        <artifactId>totp</artifactId>
+        <version>${totp.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-utils</artifactId>
+        <version>${rcm-platform.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-extension-manager</artifactId>
+        <version>${rcm-platform.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-documentation</artifactId>
+        <version>${rcm-platform.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-class-transformer</artifactId>
+        <version>${rcm-platform.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-data-jpa</artifactId>
+        <version>${rcm-platform.version}</version>
+      </dependency>
+
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombok.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-collections4</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-text</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-compress</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-fileupload</groupId>
+      <artifactId>commons-fileupload</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-exec</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-math3</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-net</groupId>
+      <artifactId>commons-net</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>jakarta.xml.bind</groupId>
+      <artifactId>jakarta.xml.bind-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.junit.vintage</groupId>
+          <artifactId>junit-vintage-engine</artifactId>
+        </exclusion>
+      </exclusions>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-launcher</artifactId>
+      <version>1.7.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.vintage</groupId>
+      <artifactId>junit-vintage-engine</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+    <!--	Parameter names	-->
+    <dependency>
+      <groupId>com.fasterxml.jackson.module</groupId>
+      <artifactId>jackson-module-parameter-names</artifactId>
+    </dependency>
+
+    <!--	Java 8 Date/time	-->
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+    </dependency>
+
+    <!--	Java 8 Datatypes	-->
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jdk8</artifactId>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <useSystemClassLoader>true</useSystemClassLoader>
+          <forkMode>always</forkMode>
+          <skip>false</skip><skipTests>true</skipTests>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>${maven-deploy-plugin.version}</version>
+        <!--<executions>
+          <execution>
+            <phase>verify</phase>
+          </execution>
+        </executions>-->
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>${maven-source-plugin.version}</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <!--<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven-compiler-plugin.version}</version>
+        <configuration>
+          <verbose>true</verbose>
+          <fork>true</fork>
+          <compilerVersion>${java.version}</compilerVersion>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+          <forceJavacCompilerUse>true</forceJavacCompilerUse></configuration>
+      </plugin>-->
+    </plugins>
+  </build>
+
+  <distributionManagement>
+    <repository>
+      <id>release</id>
+      <url>file:../release-micro/releases</url>
+      <!--<url>https://github.com/rchemist/release-micro/raw/main/releases</url>-->
+    </repository>
+
+    <snapshotRepository>
+      <id>snapshot</id>
+      <url>file:../release-micro/snapshots</url>
+      <!--<url>https://github.com/rchemist/release-micro/raw/main/snapshots</url>-->
+    </snapshotRepository>
+  </distributionManagement>
+
+
+</project>
