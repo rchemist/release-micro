@@ -53,11 +53,13 @@
   </repositories>
 
   <dependencies>
+<!--
 
     <dependency>
       <groupId>com.atomikos</groupId>
       <artifactId>transactions</artifactId>
     </dependency>
+-->
 
     <dependency>
       <groupId>com.atomikos</groupId>
