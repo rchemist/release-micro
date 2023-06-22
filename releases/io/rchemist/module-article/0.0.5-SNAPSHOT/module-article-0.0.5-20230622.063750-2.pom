@@ -54,7 +54,18 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>micro-asset</artifactId>
+      <scope>compile</scope>
       <type>jar</type>
+      <exclusions>
+        <exclusion>
+          <groupId>io.rchemist</groupId>
+          <artifactId>micro-common</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>io.rchemist</groupId>
+          <artifactId>cloud-common</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
 
     <dependency>
