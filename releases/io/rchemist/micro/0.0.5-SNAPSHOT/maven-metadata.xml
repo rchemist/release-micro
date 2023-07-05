@@ -3,16 +3,16 @@
   <groupId>io.rchemist</groupId>
   <artifactId>micro</artifactId>
   <versioning>
-    <lastUpdated>20230620080559</lastUpdated>
+    <lastUpdated>20230705080952</lastUpdated>
     <snapshot>
-      <timestamp>20230620.080559</timestamp>
-      <buildNumber>18</buildNumber>
+      <timestamp>20230705.080952</timestamp>
+      <buildNumber>19</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.5-20230620.080559-18</value>
-        <updated>20230620080559</updated>
+        <value>0.0.5-20230705.080952-19</value>
+        <updated>20230705080952</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
