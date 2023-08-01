@@ -3,10 +3,10 @@ Release server for RCM micro-services
 
 # Getting Started
 
-## Admin
+## Admin Example
 https://github.com/rchemist/demo-micro-admin-mono
 
-## Front
+## Front Example
 https://github.com/rchemist/demo-micro-front-mono
 
 ## CommonSpring6 만 사용
