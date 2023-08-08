@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>activemq-artemis</artifactId>
   <versioning>
-    <lastUpdated>20230727074335</lastUpdated>
+    <lastUpdated>20230808122939</lastUpdated>
     <snapshot>
-      <timestamp>20230727.074335</timestamp>
-      <buildNumber>15</buildNumber>
+      <timestamp>20230808.122939</timestamp>
+      <buildNumber>16</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.5-20230727.074335-15</value>
-        <updated>20230727074335</updated>
+        <value>0.0.5-20230808.122939-16</value>
+        <updated>20230808122939</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.5-20230727.074335-15</value>
-        <updated>20230727074335</updated>
+        <value>0.0.5-20230808.122939-16</value>
+        <updated>20230808122939</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.5-20230727.074335-15</value>
-        <updated>20230727074335</updated>
+        <value>0.0.5-20230808.122939-16</value>
+        <updated>20230808122939</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
